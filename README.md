@@ -1,4 +1,4 @@
-# P2N3 (Privacy-Preserving Neural Network of NTU) - hexl accerlation
+# P2N3 (Privacy-Preserving Neural Network of NTU) - hexl
 ## Introduction
 P2N3 (**P**rivacy-**P**reserving **N**eural **N**etwork of **N**TU) is a C++ open-source library which implements an optimized fully homomorphic encryption (FHE) scheme for privacy-preserving neural networks.  
 Our optimized FHE scheme enables us the ability to perform weighted sums and convolutions on the approximate LWE-based additive homomorphic encryption scheme, and to evaluate non-polynomial activations on FHEW ciphertexts. This FHE scheme has the following properties: 
