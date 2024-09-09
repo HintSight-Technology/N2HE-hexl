@@ -1,6 +1,6 @@
-# P2N3 (Privacy-Preserving Neural Network of NTU) - hexl
+# N2HE (Neural Network Homomorphic Encryption) - hexl
 ## Introduction
-P2N3 (**P**rivacy-**P**reserving **N**eural **N**etwork of **N**TU) is a C++ open-source library which implements an optimized fully homomorphic encryption (FHE) scheme for privacy-preserving neural networks.  
+N2HE (**N**eural **N**etwork **H**omomorphic **E**ncryption) is a C++ open-source library which implements an optimized fully homomorphic encryption (FHE) scheme for privacy-preserving neural networks.  
 Our optimized FHE scheme enables us the ability to perform weighted sums and convolutions on the approximate LWE-based additive homomorphic encryption scheme, and to evaluate non-polynomial activations on FHEW ciphertexts. This FHE scheme has the following properties: 
 - It can be applied to neural networks of arbitrary depth.
 - It supports many kinds of widely used activations, such as the most popular ReLU. 
@@ -13,7 +13,7 @@ For its application in other fields such as pandemic modelling, please refer to 
 
 
 It is the implementation of publication [[1]](https://ieeexplore.ieee.org/document/10398424) using [hexl](https://github.com/intel/hexl).  
-If you prefer not using hexl, please refer to repo [P2N3](https://github.com/HintSight-Technology/P2N3).  
+If you prefer not using hexl, please refer to repo [N2HE](https://github.com/HintSight-Technology/N2HE).  
 
 ## Prerequisites
 - [OpenSSL](https://www.openssl.org/)
@@ -29,7 +29,7 @@ make
  
 
 ## Document
-Please refer to [P2N3_Programmer_Guide.pdf](https://github.com/HintSight-Technology/P2N3/blob/main/P2N3_Programmer_Guide.pdf) from repo [P2N3](https://github.com/HintSight-Technology/P2N3). 
+Please refer to [N2HE_Programmer_Guide.pdf](https://github.com/HintSight-Technology/N2HE/blob/main/N2HE_Programmer_Guide.pdf) from repo [N2HE](https://github.com/HintSight-Technology/N2HE). 
 
 ## Examples
 We offer some applications of our FHE scheme. It includes inference on MNIST dataset and facial recognition.   
