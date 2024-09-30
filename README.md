@@ -16,8 +16,8 @@ It is the implementation of publication [[1]](https://ieeexplore.ieee.org/docume
 If you prefer not using hexl, please refer to repo [N2HE](https://github.com/HintSight-Technology/N2HE).  
 
 ## Prerequisites
-- [OpenSSL](https://www.openssl.org/)
-- [hexl](https://github.com/intel/hexl)
+- [OpenSSL](https://www.openssl.org/)  3.2.1 or later
+- [hexl](https://github.com/intel/hexl) v1.2.5 or later
 ## Installation
 Supported platforms: Linux and MacOS.  
 
